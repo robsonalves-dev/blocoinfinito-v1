@@ -1,3 +1,4 @@
+
 name: blocoinfinito
 description: "Bloco Infinito — jogo de quebra-cabeça com blocos, partidas infinitas e sistema de pontuação."
 publish_to: 'none'
@@ -14,6 +15,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.6
   google_mobile_ads: ^7.0.0
+  audioplayers: ^6.8.1
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +25,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/sounds/
